@@ -1,275 +1,627 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - SilentShield</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silent Shield — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Silent Shield — offline encryption & steganography app." />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Shield favicon inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%237c3aed'/><path d='M12 3l7 3v5c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z' fill='white'/></svg>" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="header-content">
-                <h1 id="main-title">Privacy Policy</h1>
-                <div class="controls">
-                    <button id="theme-toggle" class="btn-control" aria-label="Toggle theme">
-                        <span class="theme-icon">🌙</span>
-                    </button>
-                    <button id="lang-toggle" class="btn-control" aria-label="Toggle language">
-                        <span id="lang-text">العربية</span>
-                    </button>
-                </div>
-            </div>
-        </header>
 
-        <main>
-            <div id="english-content" class="content active">
-                <div class="app-info">
-                    <h2>SilentShield App Privacy Policy</h2>
-                    <p class="last-updated">Last updated: January 27, 2026</p>
-                </div>
+<!-- ═══════════════════════════════════════════════════════════ HEADER -->
+<header>
+  <div class="header-inner">
+    <a class="logo" href="#">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/></svg>
+      </div>
+      <div>
+        <div class="logo-text">Silent Shield</div>
+        <div class="logo-sub">Privacy Policy</div>
+      </div>
+    </a>
+    <div class="lang-switcher" id="lang-switcher"></div>
+  </div>
+</header>
 
-                <section>
-                    <h3>1. What Information Does This App Access?</h3>
-                    <div class="clear-info">
-                        <h4>🔍 EXACTLY What We Access:</h4>
-                        <ul>
-                            <li><strong>✅ Android ID ONLY:</strong> We read your device's Android ID (like a serial number for your phone). This is used ONLY to create encryption keys.</li>
-                            <li><strong>✅ Your Files (When You Choose):</strong> Only files you manually select to encrypt or decrypt.</li>
-                            <li><strong>✅ Biometric Data (Optional):</strong> If you enable fingerprint/face unlock, Android handles this - we never see your biometric data.</li>
-                        </ul>
-                        
-                        <h4>❌ What We DO NOT Access:</h4>
-                        <ul>
-                            <li><strong>❌ NO Internet Connection:</strong> This app works 100% offline</li>
-                            <li><strong>❌ NO Personal Information:</strong> No name, email, phone number, contacts</li>
-                            <li><strong>❌ NO Location Data:</strong> We don't track where you are</li>
-                            <li><strong>❌ NO Camera/Microphone:</strong> Unless you manually select photos to encrypt</li>
-                            <li><strong>❌ NO Other Apps Data:</strong> We can't see what other apps you use</li>
-                            <li><strong>❌ NO Cloud Storage:</strong> Nothing is uploaded anywhere</li>
-                        </ul>
-                    </div>
-                </section>
+<!-- ═══════════════════════════════════════════════════════════ HERO -->
+<div class="hero">
 
-                <section>
-                    <h3>2. How Does This App Work?</h3>
-                    <div class="clear-info">
-                        <h4>🔒 SIMPLE EXPLANATION:</h4>
-                        <ol>
-                            <li><strong>You select a file or text</strong> → Choose who can decrypt it (Android IDs of recipients)</li>
-                            <li><strong>App encrypts the data</strong> → Using the specified recipient Android IDs</li>
-                            <li><strong>Encrypted data stays on your phone</strong> → Never leaves your device</li>
-                            <li><strong>To decrypt</strong> → Only devices with authorized Android IDs can decrypt</li>
-                            <li><strong>Share encrypted files</strong> → Only specified recipients can decrypt them</li>
-                        </ol>
-                        
-                        <h4>🛡️ SECURITY PROMISE:</h4>
-                        <ul>
-                            <li><strong>✅ 100% Offline:</strong> No internet required, no data sent anywhere</li>
-                            <li><strong>✅ Your Device Only:</strong> Everything happens on your phone</li>
-                            <li><strong>✅ You Control Everything:</strong> We can't access your data even if we wanted to</li>
-                        </ul>
-                        
-                        <h4>👥 RECIPIENT SYSTEM:</h4>
-                        <ul>
-                            <li><strong>✅ Choose Recipients:</strong> You decide exactly who can decrypt your files</li>
-                            <li><strong>✅ Multiple Recipients:</strong> You can add more than one person</li>
-                            <li><strong>✅ "Any Device" Option:</strong> If enabled, anyone can decrypt</li>
-                            <li><strong>✅ Full Protection:</strong> Without the correct Android ID, decryption is impossible</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>3. Data Storage - Where Is Your Information?</h3>
-                    <div class="clear-info">
-                        <h4>📱 ON YOUR PHONE ONLY:</h4>
-                        <ul>
-                            <li><strong>✅ Local Storage:</strong> All your encrypted files are saved in your phone's secure storage</li>
-                            <li><strong>✅ No Cloud Backup:</strong> We don't use Google Drive, iCloud, or any cloud service</li>
-                            <li><strong>✅ No Company Servers:</strong> We don't have servers to store your data</li>
-                            <li><strong>✅ Delete Anytime:</strong> Uninstall the app = all data is gone forever</li>
-                        </ul>
-                        
-                        <h4>🔐 SECURITY MEASURES:</h4>
-                        <ul>
-                            <li><strong>AES-256 Encryption:</strong> Military-grade encryption (same as banks use)</li>
-                            <li><strong>Secure Android Storage:</strong> Uses Android's built-in secure storage system</li>
-                            <li><strong>No Backup Keys:</strong> If you lose your phone, we can't recover your data</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>4. Do We Share Your Data? NO!</h3>
-                    <div class="clear-info">
-                        <h4>❌ ZERO DATA SHARING:</h4>
-                        <ul>
-                            <li><strong>❌ No Companies:</strong> We don't sell, share, or give your data to anyone</li>
-                            <li><strong>❌ No Advertisers:</strong> No ads = no tracking</li>
-                            <li><strong>❌ No Government:</strong> We can't share what we don't have</li>
-                            <li><strong>❌ No Analytics:</strong> We don't track how you use the app</li>
-                            <li><strong>❌ No Internet:</strong> App works offline, so no data can be sent</li>
-                        </ul>
-                        
-                        <h4>✅ WHAT THIS MEANS:</h4>
-                        <p><strong>Your data is 100% private. Period.</strong> We physically cannot access your information because it never leaves your phone.</p>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>5. Children's Privacy</h3>
-                    <p>Our app does not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
-                </section>
-
-                <section>
-                    <h3>6. Your Rights</h3>
-                    <ul>
-                        <li>Right to access your data (all data is locally accessible to you)</li>
-                        <li>Right to delete your data (uninstall the app or clear app data)</li>
-                        <li>Right to data portability (export your encrypted files)</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h3>7. Changes to This Policy</h3>
-                    <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page and updating the "Last updated" date.</p>
-                </section>
-
-                <section>
-                    <h3>8. Contact Us</h3>
-                    <p>If you have any questions about this privacy policy, please contact us at:</p>
-                    <p><strong>Email:</strong> privacy@silentshield.app</p>
-                </section>
-            </div>
-
-            <div id="arabic-content" class="content" dir="rtl">
-                <div class="app-info">
-                    <h2>سياسة الخصوصية لتطبيق SilentShield</h2>
-                    <p class="last-updated">آخر تحديث: 27 يناير 2026</p>
-                </div>
-
-                <section>
-                    <h3>1. ما هي المعلومات التي يصل إليها هذا التطبيق؟</h3>
-                    <div class="clear-info">
-                        <h4>🔍 بالضبط ما نصل إليه:</h4>
-                        <ul>
-                            <li><strong>✅ معرف أندرويد فقط:</strong> نقرأ معرف أندرويد الخاص بجهازك (مثل الرقم التسلسلي لهاتفك). يُستخدم فقط لإنشاء مفاتيح التشفير.</li>
-                            <li><strong>✅ ملفاتك (عند اختيارك):</strong> فقط الملفات التي تختار تشفيرها أو فك تشفيرها يدوياً.</li>
-                            <li><strong>✅ البيانات البيومترية (اختياري):</strong> إذا فعلت فتح القفل ببصمة الإصبع/الوجه، أندرويد يتعامل مع هذا - نحن لا نرى بياناتك البيومترية أبداً.</li>
-                        </ul>
-                        
-                        <h4>❌ ما لا نصل إليه:</h4>
-                        <ul>
-                            <li><strong>❌ لا اتصال بالإنترنت:</strong> هذا التطبيق يعمل 100% بدون إنترنت</li>
-                            <li><strong>❌ لا معلومات شخصية:</strong> لا اسم، لا إيميل، لا رقم هاتف، لا جهات اتصال</li>
-                            <li><strong>❌ لا بيانات موقع:</strong> لا نتتبع مكانك</li>
-                            <li><strong>❌ لا كاميرا/مايكروفون:</strong> إلا إذا اخترت صوراً لتشفيرها يدوياً</li>
-                            <li><strong>❌ لا بيانات تطبيقات أخرى:</strong> لا نستطيع رؤية التطبيقات الأخرى التي تستخدمها</li>
-                            <li><strong>❌ لا تخزين سحابي:</strong> لا شيء يُرفع في أي مكان</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>2. كيف يعمل هذا التطبيق؟</h3>
-                    <div class="clear-info">
-                        <h4>🔒 شرح بسيط:</h4>
-                        <ol>
-                            <li><strong>تختار ملف أو نص</strong> ← تختار من يستطيع فك التشفير (معرفات أندرويد للمستقبلين)</li>
-                            <li><strong>التطبيق يشفر البيانات</strong> ← باستخدام معرفات المستقبلين المحددين</li>
-                            <li><strong>البيانات المشفرة تبقى في هاتفك</strong> ← لا تغادر جهازك أبداً</li>
-                            <li><strong>لفك التشفير</strong> ← فقط الأجهزة التي لها معرفات مسموحة يمكنها فك التشفير</li>
-                            <li><strong>مشاركة الملفات المشفرة</strong> ← فقط المستقبلون المحددون يمكنهم فك التشفير</li>
-                        </ol>
-                        
-                        <h4>🛡️ وعد الأمان:</h4>
-                        <ul>
-                            <li><strong>✅ 100% بدون إنترنت:</strong> لا حاجة للإنترنت، لا بيانات تُرسل في أي مكان</li>
-                            <li><strong>✅ جهازك فقط:</strong> كل شيء يحدث في هاتفك</li>
-                            <li><strong>✅ أنت تتحكم في كل شيء:</strong> لا نستطيع الوصول لبياناتك حتى لو أردنا</li>
-                        </ul>
-                        
-                        <h4>👥 نظام المستقبلين:</h4>
-                        <ul>
-                            <li><strong>✅ تحديد المستقبلين:</strong> تختار بالضبط من يستطيع فك تشفير ملفاتك</li>
-                            <li><strong>✅ عدة مستقبلين:</strong> يمكنك إضافة أكثر من شخص واحد</li>
-                            <li><strong>✅ خيار "أي جهاز":</strong> إذا فعلته، أي شخص يمكنه فك التشفير</li>
-                            <li><strong>✅ حماية كاملة:</strong> بدون معرف أندرويد الصحيح، لا يمكن فك التشفير</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>3. تخزين البيانات - أين معلوماتك؟</h3>
-                    <div class="clear-info">
-                        <h4>📱 في هاتفك فقط:</h4>
-                        <ul>
-                            <li><strong>✅ تخزين محلي:</strong> جميع ملفاتك المشفرة محفوظة في التخزين الآمن لهاتفك</li>
-                            <li><strong>✅ لا نسخ احتياطي سحابي:</strong> لا نستخدم Google Drive أو iCloud أو أي خدمة سحابية</li>
-                            <li><strong>✅ لا خوادم شركة:</strong> ليس لدينا خوادم لتخزين بياناتك</li>
-                            <li><strong>✅ احذف في أي وقت:</strong> إلغاء تثبيت التطبيق = جميع البيانات تختفي للأبد</li>
-                        </ul>
-                        
-                        <h4>🔐 إجراءات الأمان:</h4>
-                        <ul>
-                            <li><strong>تشفير AES-256:</strong> تشفير عسكري الدرجة (نفس ما تستخدمه البنوك)</li>
-                            <li><strong>تخزين أندرويد الآمن:</strong> يستخدم نظام التخزين الآمن المدمج في أندرويد</li>
-                            <li><strong>لا مفاتيح احتياطية:</strong> إذا فقدت هاتفك، لا نستطيع استرداد بياناتك</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>4. هل نشارك بياناتك؟ لا!</h3>
-                    <div class="clear-info">
-                        <h4>❌ صفر مشاركة بيانات:</h4>
-                        <ul>
-                            <li><strong>❌ لا شركات:</strong> لا نبيع أو نشارك أو نعطي بياناتك لأي أحد</li>
-                            <li><strong>❌ لا معلنين:</strong> لا إعلانات = لا تتبع</li>
-                            <li><strong>❌ لا حكومة:</strong> لا نستطيع مشاركة ما لا نملكه</li>
-                            <li><strong>❌ لا تحليلات:</strong> لا نتتبع كيف تستخدم التطبيق</li>
-                            <li><strong>❌ لا إنترنت:</strong> التطبيق يعمل بدون إنترنت، لذا لا يمكن إرسال بيانات</li>
-                        </ul>
-                        
-                        <h4>✅ ماذا يعني هذا:</h4>
-                        <p><strong>بياناتك خاصة 100%. نقطة.</strong> لا نستطيع فيزيائياً الوصول لمعلوماتك لأنها لا تغادر هاتفك أبداً.</p>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>5. خصوصية الأطفال</h3>
-                    <p>تطبيقنا لا يجمع عن علم معلومات شخصية من الأطفال دون سن 13 عاماً. إذا كنت والداً أو وصياً وتعتقد أن طفلك قد قدم لنا معلومات شخصية، يرجى الاتصال بنا.</p>
-                </section>
-
-                <section>
-                    <h3>6. حقوقك</h3>
-                    <ul>
-                        <li>الحق في الوصول إلى بياناتك (جميع البيانات متاحة لك محلياً)</li>
-                        <li>الحق في حذف بياناتك (إلغاء تثبيت التطبيق أو مسح بيانات التطبيق)</li>
-                        <li>الحق في نقل البيانات (تصدير ملفاتك المشفرة)</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h3>7. التغييرات على هذه السياسة</h3>
-                    <p>قد نحدث سياسة الخصوصية هذه من وقت لآخر. سنخطرك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة على هذه الصفحة وتحديث تاريخ "آخر تحديث".</p>
-                </section>
-
-                <section>
-                    <h3>8. اتصل بنا</h3>
-                    <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:</p>
-                    <p><strong>البريد الإلكتروني:</strong> silentshield@gmail.com</p>
-                </section>
-            </div>
-        </main>
-
-        <footer>
-            <p id="footer-text">© 2026 SilentShield. All rights reserved.</p>
-        </footer>
+  <!-- EN -->
+  <div data-lang="en">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      Privacy Policy
     </div>
+    <h1>Your Privacy Matters</h1>
+    <p>Silent Shield is built on one principle: your data belongs to you — and only you. Read how we protect it.</p>
+    <div class="updated-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+      Last updated: May 15, 2026
+    </div>
+  </div>
 
-    <script src="script.js"></script>
+  <!-- AR -->
+  <div data-lang="ar">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      سياسة الخصوصية
+    </div>
+    <h1>خصوصيتك تهمنا</h1>
+    <p>درع صامت مبني على مبدأ واحد: بياناتك ملكك وحدك. اقرأ كيف نحميها.</p>
+    <div class="updated-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+      آخر تحديث: 15 مايو 2026
+    </div>
+  </div>
+
+  <!-- DE -->
+  <div data-lang="de">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      Datenschutzerklärung
+    </div>
+    <h1>Ihre Privatsphäre ist uns wichtig</h1>
+    <p>Silent Shield basiert auf einem Prinzip: Ihre Daten gehören Ihnen – und nur Ihnen. Lesen Sie, wie wir sie schützen.</p>
+    <div class="updated-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+      Zuletzt aktualisiert: 15. Mai 2026
+    </div>
+  </div>
+
+  <!-- ES -->
+  <div data-lang="es">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      Política de Privacidad
+    </div>
+    <h1>Tu privacidad importa</h1>
+    <p>Silent Shield se basa en un principio: tus datos te pertenecen solo a ti. Lee cómo los protegemos.</p>
+    <div class="updated-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+      Última actualización: 15 de mayo de 2026
+    </div>
+  </div>
+
+  <!-- FR -->
+  <div data-lang="fr">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      Politique de Confidentialité
+    </div>
+    <h1>Votre confidentialité compte</h1>
+    <p>Silent Shield repose sur un principe : vos données vous appartiennent. Découvrez comment nous les protégeons.</p>
+    <div class="updated-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+      Dernière mise à jour : 15 mai 2026
+    </div>
+  </div>
+
+  <!-- TR -->
+  <div data-lang="tr">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      Gizlilik Politikası
+    </div>
+    <h1>Gizliliğiniz Önemlidir</h1>
+    <p>Silent Shield bir ilke üzerine kurulmuştur: verileriniz yalnızca size aittir. Onu nasıl koruduğumuzu okuyun.</p>
+    <div class="updated-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+      Son güncelleme: 15 Mayıs 2026
+    </div>
+  </div>
+
+  <!-- ZH -->
+  <div data-lang="zh">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      隐私政策
+    </div>
+    <h1>您的隐私至关重要</h1>
+    <p>Silent Shield 基于一个原则：您的数据只属于您。阅读我们如何保护它。</p>
+    <div class="updated-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+      最后更新：2026年5月15日
+    </div>
+  </div>
+
+</div><!-- /hero -->
+
+<!-- ═══════════════════════════════════════════════════════════ MAIN -->
+<main>
+
+<!-- ─────────────────────── SECTION 1: Overview ─────────────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-purple">
+      <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Overview</div><div class="section-num">Section 1</div></div>
+      <div data-lang="ar"><div class="section-title">نظرة عامة</div><div class="section-num">القسم الأول</div></div>
+      <div data-lang="de"><div class="section-title">Überblick</div><div class="section-num">Abschnitt 1</div></div>
+      <div data-lang="es"><div class="section-title">Descripción general</div><div class="section-num">Sección 1</div></div>
+      <div data-lang="fr"><div class="section-title">Présentation</div><div class="section-num">Section 1</div></div>
+      <div data-lang="tr"><div class="section-title">Genel Bakış</div><div class="section-num">Bölüm 1</div></div>
+      <div data-lang="zh"><div class="section-title">概述</div><div class="section-num">第一节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en">
+    <p>This Privacy Policy describes how <strong>Silent Shield</strong> ("the App", "we", "our") handles your information. Silent Shield is an offline encryption and steganography application developed by <strong>BinAref</strong>.</p>
+    <div class="highlight highlight-green"><span class="highlight-icon">🔒</span><span>Silent Shield operates <strong>entirely offline</strong>. Your encrypted content, passwords, and personal files never leave your device and are never sent to any server.</span></div>
+    <p>By using the App, you agree to this policy. If you do not agree, please discontinue use of the App.</p>
+  </div>
+  <div data-lang="ar">
+    <p>تصف سياسة الخصوصية هذه كيفية تعامل <strong>درع صامت</strong> ("التطبيق"، "نحن") مع معلوماتك. درع صامت هو تطبيق تشفير وإخفاء معلومات يعمل دون اتصال، تم تطويره بواسطة <strong>BinAref</strong>.</p>
+    <div class="highlight highlight-green"><span class="highlight-icon">🔒</span><span>يعمل درع صامت <strong>بالكامل دون اتصال بالإنترنت</strong>. لا تغادر محتوياتك المشفرة وكلمات المرور والملفات الشخصية جهازك أبداً، ولا تُرسل إلى أي خادم.</span></div>
+    <p>باستخدامك للتطبيق، فإنك توافق على هذه السياسة.</p>
+  </div>
+  <div data-lang="de">
+    <p>Diese Datenschutzerklärung beschreibt, wie <strong>Silent Shield</strong> mit Ihren Informationen umgeht. Silent Shield ist eine Offline-Verschlüsselungs- und Steganografie-Anwendung, entwickelt von <strong>BinAref</strong>.</p>
+    <div class="highlight highlight-green"><span class="highlight-icon">🔒</span><span>Silent Shield funktioniert <strong>vollständig offline</strong>. Ihre verschlüsselten Inhalte, Passwörter und persönlichen Dateien verlassen Ihr Gerät niemals und werden nie an einen Server gesendet.</span></div>
+    <p>Durch die Nutzung der App stimmen Sie dieser Richtlinie zu.</p>
+  </div>
+  <div data-lang="es">
+    <p>Esta Política de Privacidad describe cómo <strong>Silent Shield</strong> maneja tu información. Silent Shield es una aplicación de cifrado y esteganografía sin conexión desarrollada por <strong>BinAref</strong>.</p>
+    <div class="highlight highlight-green"><span class="highlight-icon">🔒</span><span>Silent Shield funciona <strong>completamente sin conexión</strong>. Tu contenido cifrado, contraseñas y archivos personales nunca salen de tu dispositivo ni se envían a ningún servidor.</span></div>
+    <p>Al usar la App, aceptas esta política.</p>
+  </div>
+  <div data-lang="fr">
+    <p>Cette Politique de Confidentialité décrit comment <strong>Silent Shield</strong> gère vos informations. Silent Shield est une application de chiffrement et stéganographie hors ligne développée par <strong>BinAref</strong>.</p>
+    <div class="highlight highlight-green"><span class="highlight-icon">🔒</span><span>Silent Shield fonctionne <strong>entièrement hors ligne</strong>. Votre contenu chiffré, vos mots de passe et fichiers personnels ne quittent jamais votre appareil.</span></div>
+    <p>En utilisant l'App, vous acceptez cette politique.</p>
+  </div>
+  <div data-lang="tr">
+    <p>Bu Gizlilik Politikası, <strong>Silent Shield</strong>'ın bilgilerinizi nasıl işlediğini açıklar. Silent Shield, <strong>BinAref</strong> tarafından geliştirilen çevrimdışı bir şifreleme ve steganografi uygulamasıdır.</p>
+    <div class="highlight highlight-green"><span class="highlight-icon">🔒</span><span>Silent Shield <strong>tamamen çevrimdışı</strong> çalışır. Şifrelenmiş içeriğiniz, şifreleriniz ve kişisel dosyalarınız hiçbir zaman cihazınızı terk etmez.</span></div>
+    <p>Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.</p>
+  </div>
+  <div data-lang="zh">
+    <p>本隐私政策描述了 <strong>Silent Shield</strong>（"应用"）如何处理您的信息。Silent Shield 是由 <strong>BinAref</strong> 开发的离线加密和隐写术应用。</p>
+    <div class="highlight highlight-green"><span class="highlight-icon">🔒</span><span>Silent Shield <strong>完全离线运行</strong>。您的加密内容、密码和个人文件从不离开您的设备，也不会发送到任何服务器。</span></div>
+    <p>使用本应用，即表示您同意本政策。</p>
+  </div>
+</div>
+
+<!-- ─────────────────────── SECTION 2: Data Collected ───────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-blue">
+      <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Information We Collect</div><div class="section-num">Section 2</div></div>
+      <div data-lang="ar"><div class="section-title">المعلومات التي نجمعها</div><div class="section-num">القسم الثاني</div></div>
+      <div data-lang="de"><div class="section-title">Informationen, die wir erheben</div><div class="section-num">Abschnitt 2</div></div>
+      <div data-lang="es"><div class="section-title">Información que recopilamos</div><div class="section-num">Sección 2</div></div>
+      <div data-lang="fr"><div class="section-title">Informations que nous collectons</div><div class="section-num">Section 2</div></div>
+      <div data-lang="tr"><div class="section-title">Topladığımız Bilgiler</div><div class="section-num">Bölüm 2</div></div>
+      <div data-lang="zh"><div class="section-title">我们收集的信息</div><div class="section-num">第二节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en">
+    <p>Silent Shield collects minimal data — only what is strictly necessary for the App to function:</p>
+    <ul class="info-list">
+      <li><strong>Device Identifier:</strong> A unique ID generated on first launch, stored locally on your device. Used to identify your device as an authorized encryption recipient. Never transmitted.</li>
+      <li><strong>Purchase History:</strong> Processed entirely by Google Play. We receive only confirmation that a purchase was made (plan type). No payment details are ever accessed by us.</li>
+      <li><strong>App Settings:</strong> Your preferences (theme, language, authentication method) stored locally on your device.</li>
+    </ul>
+    <div class="highlight"><span class="highlight-icon">ℹ️</span><span>We do <strong>not</strong> collect: names, email addresses, location, contacts, usage analytics, crash reports sent to us, or any content you encrypt.</span></div>
+  </div>
+  <div data-lang="ar">
+    <p>يجمع درع صامت الحد الأدنى من البيانات — فقط ما هو ضروري لعمل التطبيق:</p>
+    <ul class="info-list">
+      <li><strong>معرّف الجهاز:</strong> معرّف فريد يتم إنشاؤه عند أول تشغيل، مخزن محلياً على جهازك. يُستخدم لتعريف جهازك كمستلم مصرح له. لا يُرسل أبداً.</li>
+      <li><strong>سجل المشتريات:</strong> تتم معالجته بالكامل من قِبَل Google Play. نتلقى فقط تأكيداً بأن عملية شراء تمت. لا نصل أبداً إلى أي تفاصيل دفع.</li>
+      <li><strong>إعدادات التطبيق:</strong> تفضيلاتك (السمة، اللغة، طريقة المصادقة) مخزنة محلياً على جهازك.</li>
+    </ul>
+    <div class="highlight"><span class="highlight-icon">ℹ️</span><span>نحن <strong>لا</strong> نجمع: الأسماء، عناوين البريد الإلكتروني، الموقع، جهات الاتصال، تحليلات الاستخدام، أو أي محتوى تقوم بتشفيره.</span></div>
+  </div>
+  <div data-lang="de">
+    <p>Silent Shield erhebt minimale Daten — nur was für die Funktion der App unbedingt erforderlich ist:</p>
+    <ul class="info-list">
+      <li><strong>Geräte-ID:</strong> Eine eindeutige ID, die beim ersten Start generiert und lokal gespeichert wird. Wird verwendet, um Ihr Gerät als autorisierten Empfänger zu identifizieren. Wird niemals übertragen.</li>
+      <li><strong>Kaufhistorie:</strong> Vollständig von Google Play verarbeitet. Wir erhalten nur die Bestätigung eines Kaufs. Keine Zahlungsdetails.</li>
+      <li><strong>App-Einstellungen:</strong> Ihre Einstellungen werden lokal auf Ihrem Gerät gespeichert.</li>
+    </ul>
+    <div class="highlight"><span class="highlight-icon">ℹ️</span><span>Wir erheben <strong>keine</strong> Namen, E-Mail-Adressen, Standortdaten, Kontakte, Nutzungsanalysen oder verschlüsselte Inhalte.</span></div>
+  </div>
+  <div data-lang="es">
+    <p>Silent Shield recopila datos mínimos — solo lo estrictamente necesario para que la App funcione:</p>
+    <ul class="info-list">
+      <li><strong>Identificador de dispositivo:</strong> Un ID único generado en el primer inicio, almacenado localmente. Nunca se transmite.</li>
+      <li><strong>Historial de compras:</strong> Procesado completamente por Google Play. Solo recibimos confirmación de que se realizó una compra.</li>
+      <li><strong>Configuración de la app:</strong> Tus preferencias se almacenan localmente en tu dispositivo.</li>
+    </ul>
+    <div class="highlight"><span class="highlight-icon">ℹ️</span><span><strong>No</strong> recopilamos nombres, correos electrónicos, ubicación, contactos, análisis de uso ni ningún contenido que cifres.</span></div>
+  </div>
+  <div data-lang="fr">
+    <p>Silent Shield collecte des données minimales — uniquement ce qui est strictement nécessaire au fonctionnement de l'App :</p>
+    <ul class="info-list">
+      <li><strong>Identifiant d'appareil :</strong> Un ID unique généré au premier lancement, stocké localement. Jamais transmis.</li>
+      <li><strong>Historique d'achats :</strong> Entièrement traité par Google Play. Nous recevons uniquement la confirmation d'un achat.</li>
+      <li><strong>Paramètres de l'App :</strong> Vos préférences sont stockées localement sur votre appareil.</li>
+    </ul>
+    <div class="highlight"><span class="highlight-icon">ℹ️</span><span>Nous ne collectons <strong>pas</strong> de noms, e-mails, localisation, contacts, analyses d'utilisation ni aucun contenu chiffré.</span></div>
+  </div>
+  <div data-lang="tr">
+    <p>Silent Shield minimum veri toplar — yalnızca Uygulamanın çalışması için kesinlikle gerekli olanlar:</p>
+    <ul class="info-list">
+      <li><strong>Cihaz Kimliği:</strong> İlk başlatmada oluşturulan, yerel olarak saklanan benzersiz bir kimlik. Asla iletilmez.</li>
+      <li><strong>Satın Alma Geçmişi:</strong> Tamamen Google Play tarafından işlenir. Yalnızca satın alma onayı alırız.</li>
+      <li><strong>Uygulama Ayarları:</strong> Tercihleriniz cihazınızda yerel olarak saklanır.</li>
+    </ul>
+    <div class="highlight"><span class="highlight-icon">ℹ️</span><span>Ad, e-posta, konum, kişiler, kullanım analitiği veya şifrelediğiniz herhangi bir içerik <strong>toplamıyoruz</strong>.</span></div>
+  </div>
+  <div data-lang="zh">
+    <p>Silent Shield 收集最少的数据 — 仅收集应用运行所必需的内容：</p>
+    <ul class="info-list">
+      <li><strong>设备标识符：</strong>首次启动时生成的唯一ID，存储在您的设备本地。从不传输。</li>
+      <li><strong>购买历史：</strong>完全由 Google Play 处理。我们仅收到购买确认。</li>
+      <li><strong>应用设置：</strong>您的偏好设置存储在设备本地。</li>
+    </ul>
+    <div class="highlight"><span class="highlight-icon">ℹ️</span><span>我们<strong>不</strong>收集：姓名、电子邮件、位置、联系人、使用分析或您加密的任何内容。</span></div>
+  </div>
+</div>
+
+<!-- ─────────────────────── SECTION 3: Data Security ────────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-green">
+      <svg viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Data Security</div><div class="section-num">Section 3</div></div>
+      <div data-lang="ar"><div class="section-title">أمان البيانات</div><div class="section-num">القسم الثالث</div></div>
+      <div data-lang="de"><div class="section-title">Datensicherheit</div><div class="section-num">Abschnitt 3</div></div>
+      <div data-lang="es"><div class="section-title">Seguridad de datos</div><div class="section-num">Sección 3</div></div>
+      <div data-lang="fr"><div class="section-title">Sécurité des données</div><div class="section-num">Section 3</div></div>
+      <div data-lang="tr"><div class="section-title">Veri Güvenliği</div><div class="section-num">Bölüm 3</div></div>
+      <div data-lang="zh"><div class="section-title">数据安全</div><div class="section-num">第三节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en">
+    <p>Security is the core of Silent Shield. All sensitive data is protected by multiple layers:</p>
+    <ul class="info-list">
+      <li><strong>Strong encryption</strong> — all content is encrypted with a robust, modern cipher before being stored.</li>
+      <li><strong>Secure key derivation</strong> — passwords are never stored directly; they are transformed into cryptographic keys through a hardened process.</li>
+      <li><strong>Android Keystore</strong> — subscription and session data stored in hardware-backed secure storage, tamper-resistant.</li>
+      <li><strong>Biometric authentication</strong> — optional fingerprint / face unlock before accessing the App.</li>
+      <li><strong>Screenshot prevention</strong> — the App blocks screenshots and screen recording at the system level.</li>
+      <li><strong>No backup</strong> — App data is excluded from Android cloud backups.</li>
+    </ul>
+  </div>
+  <div data-lang="ar">
+    <p>الأمان هو جوهر درع صامت. جميع البيانات الحساسة محمية بطبقات متعددة:</p>
+    <ul class="info-list">
+      <li><strong>تشفير قوي</strong> — يتم تشفير جميع المحتويات بخوارزمية حديثة وموثوقة قبل تخزينها.</li>
+      <li><strong>اشتقاق آمن للمفاتيح</strong> — كلمات المرور لا تُخزَّن أبداً مباشرةً، بل تُحوَّل إلى مفاتيح تشفير عبر عملية مُحكمة.</li>
+      <li><strong>Android Keystore</strong> — بيانات الاشتراك والجلسات مخزنة في تخزين آمن يعتمد على الهاردوير، مقاوم للتلاعب.</li>
+      <li><strong>المصادقة البيومترية</strong> — بصمة الإصبع أو الوجه اختيارياً قبل الوصول للتطبيق.</li>
+      <li><strong>منع لقطات الشاشة</strong> — يمنع التطبيق التقاط الشاشة وتسجيل الشاشة على مستوى النظام.</li>
+      <li><strong>بدون نسخ احتياطي</strong> — بيانات التطبيق مستثناة من النسخ الاحتياطية السحابية.</li>
+    </ul>
+  </div>
+  <div data-lang="de">
+    <p>Sicherheit ist das Herzstück von Silent Shield. Alle sensiblen Daten sind durch mehrere Schichten geschützt:</p>
+    <ul class="info-list">
+      <li><strong>Starke Verschlüsselung</strong> — alle Inhalte werden mit einem modernen, robusten Algorithmus verschlüsselt.</li>
+      <li><strong>Sichere Schlüsselableitung</strong> — Passwörter werden nie direkt gespeichert, sondern in kryptografische Schlüssel umgewandelt.</li>
+      <li><strong>Android Keystore</strong> — Hardware-gesicherter Speicher, manipulationssicher.</li>
+      <li><strong>Biometrische Authentifizierung</strong> — optionaler Fingerabdruck-/Gesichtsschutz.</li>
+      <li><strong>Screenshot-Sperre</strong> — blockiert Screenshots und Bildschirmaufnahmen.</li>
+      <li><strong>Kein Backup</strong> — App-Daten sind von Cloud-Backups ausgeschlossen.</li>
+    </ul>
+  </div>
+  <div data-lang="es">
+    <p>La seguridad es el núcleo de Silent Shield. Todos los datos sensibles están protegidos por múltiples capas:</p>
+    <ul class="info-list">
+      <li><strong>Cifrado robusto</strong> — todo el contenido se cifra con un algoritmo moderno y sólido antes de almacenarse.</li>
+      <li><strong>Derivación segura de claves</strong> — las contraseñas nunca se almacenan directamente; se transforman en claves criptográficas.</li>
+      <li><strong>Android Keystore</strong> — almacenamiento seguro respaldado por hardware, resistente a manipulaciones.</li>
+      <li><strong>Autenticación biométrica</strong> — huella dactilar/reconocimiento facial opcional.</li>
+      <li><strong>Prevención de capturas de pantalla</strong> — bloquea capturas y grabación de pantalla.</li>
+      <li><strong>Sin copia de seguridad</strong> — los datos de la App están excluidos de copias en la nube.</li>
+    </ul>
+  </div>
+  <div data-lang="fr">
+    <p>La sécurité est au cœur de Silent Shield. Toutes les données sensibles sont protégées par plusieurs couches :</p>
+    <ul class="info-list">
+      <li><strong>Chiffrement robuste</strong> — tout le contenu est chiffré avec un algorithme moderne et éprouvé avant d'être stocké.</li>
+      <li><strong>Dérivation sécurisée des clés</strong> — les mots de passe ne sont jamais stockés directement ; ils sont transformés en clés cryptographiques.</li>
+      <li><strong>Android Keystore</strong> — stockage sécurisé matériel, résistant aux manipulations.</li>
+      <li><strong>Authentification biométrique</strong> — empreinte digitale / reconnaissance faciale optionnelle.</li>
+      <li><strong>Blocage des captures d'écran</strong> — bloque les captures et l'enregistrement d'écran.</li>
+      <li><strong>Pas de sauvegarde</strong> — données exclues des sauvegardes cloud.</li>
+    </ul>
+  </div>
+  <div data-lang="tr">
+    <p>Güvenlik, Silent Shield'ın özüdür. Tüm hassas veriler birden fazla katmanla korunur:</p>
+    <ul class="info-list">
+      <li><strong>Güçlü şifreleme</strong> — tüm içerikler depolanmadan önce modern ve sağlam bir algoritmayla şifrelenir.</li>
+      <li><strong>Güvenli anahtar türetme</strong> — şifreler hiçbir zaman doğrudan saklanmaz; kriptografik anahtarlara dönüştürülür.</li>
+      <li><strong>Android Keystore</strong> — donanım destekli güvenli depolama, kurcalamaya dayanıklı.</li>
+      <li><strong>Biyometrik kimlik doğrulama</strong> — isteğe bağlı parmak izi / yüz kilidi.</li>
+      <li><strong>Ekran görüntüsü engelleme</strong> — ekran görüntüsü ve kaydı sistem düzeyinde engeller.</li>
+      <li><strong>Yedekleme yok</strong> — uygulama verileri bulut yedeklemelerinden hariç tutulur.</li>
+    </ul>
+  </div>
+  <div data-lang="zh">
+    <p>安全是 Silent Shield 的核心。所有敏感数据均受多层保护：</p>
+    <ul class="info-list">
+      <li><strong>强加密</strong> — 所有内容在存储前均使用现代、可靠的算法进行加密。</li>
+      <li><strong>安全密钥派生</strong> — 密码从不直接存储，而是通过严格的流程转换为加密密钥。</li>
+      <li><strong>Android Keystore</strong> — 硬件支持的安全存储，防篡改。</li>
+      <li><strong>生物特征认证</strong> — 可选指纹/面部识别解锁。</li>
+      <li><strong>防截图</strong> — 在系统级别阻止截图和录屏。</li>
+      <li><strong>无备份</strong> — 应用数据不包含在云备份中。</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ─────────────────────── SECTION 4: Third Parties ────────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-orange">
+      <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Third-Party Services</div><div class="section-num">Section 4</div></div>
+      <div data-lang="ar"><div class="section-title">خدمات الطرف الثالث</div><div class="section-num">القسم الرابع</div></div>
+      <div data-lang="de"><div class="section-title">Drittanbieter-Dienste</div><div class="section-num">Abschnitt 4</div></div>
+      <div data-lang="es"><div class="section-title">Servicios de terceros</div><div class="section-num">Sección 4</div></div>
+      <div data-lang="fr"><div class="section-title">Services tiers</div><div class="section-num">Section 4</div></div>
+      <div data-lang="tr"><div class="section-title">Üçüncü Taraf Hizmetler</div><div class="section-num">Bölüm 4</div></div>
+      <div data-lang="zh"><div class="section-title">第三方服务</div><div class="section-num">第四节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en">
+    <p>Silent Shield uses only one third-party service:</p>
+    <ul class="info-list">
+      <li><strong>Google Play Billing</strong> — handles all in-app purchases. Google's privacy policy applies to billing data. We receive only purchase status (active/inactive) and plan type.</li>
+    </ul>
+    <p>We do <strong>not</strong> use: advertising networks, analytics platforms, crash reporting tools, social media SDKs, or any other third-party services.</p>
+  </div>
+  <div data-lang="ar">
+    <p>يستخدم درع صامت خدمة طرف ثالث واحدة فقط:</p>
+    <ul class="info-list">
+      <li><strong>Google Play Billing</strong> — يتولى معالجة جميع عمليات الشراء داخل التطبيق. تنطبق سياسة خصوصية Google على بيانات الفواتير. نحن نتلقى فقط حالة الشراء ونوع الخطة.</li>
+    </ul>
+    <p>نحن <strong>لا</strong> نستخدم: شبكات الإعلانات، منصات التحليل، أدوات تقارير الأعطال، أو أي خدمات طرف ثالث أخرى.</p>
+  </div>
+  <div data-lang="de">
+    <p>Silent Shield verwendet nur einen Drittanbieter-Dienst:</p>
+    <ul class="info-list">
+      <li><strong>Google Play Billing</strong> — verarbeitet alle In-App-Käufe. Wir erhalten nur den Kaufstatus und den Plantyp.</li>
+    </ul>
+    <p>Wir verwenden <strong>keine</strong> Werbenetzwerke, Analyseplattformen, Absturzberichte oder andere Drittanbieter-Dienste.</p>
+  </div>
+  <div data-lang="es">
+    <p>Silent Shield utiliza solo un servicio de terceros:</p>
+    <ul class="info-list">
+      <li><strong>Google Play Billing</strong> — gestiona todas las compras dentro de la app. Solo recibimos el estado de la compra y el tipo de plan.</li>
+    </ul>
+    <p><strong>No</strong> utilizamos redes publicitarias, plataformas de análisis, herramientas de informes de fallos ni ningún otro servicio de terceros.</p>
+  </div>
+  <div data-lang="fr">
+    <p>Silent Shield utilise un seul service tiers :</p>
+    <ul class="info-list">
+      <li><strong>Google Play Billing</strong> — gère tous les achats intégrés. Nous recevons uniquement le statut d'achat et le type de plan.</li>
+    </ul>
+    <p>Nous n'utilisons <strong>aucun</strong> réseau publicitaire, plateforme d'analyse, outil de rapport de plantage ni autre service tiers.</p>
+  </div>
+  <div data-lang="tr">
+    <p>Silent Shield yalnızca bir üçüncü taraf hizmeti kullanır:</p>
+    <ul class="info-list">
+      <li><strong>Google Play Billing</strong> — tüm uygulama içi satın almaları işler. Yalnızca satın alma durumunu ve plan türünü alırız.</li>
+    </ul>
+    <p>Reklam ağları, analitik platformlar, kilitlenme raporlama araçları veya başka üçüncü taraf hizmetler <strong>kullanmıyoruz</strong>.</p>
+  </div>
+  <div data-lang="zh">
+    <p>Silent Shield 仅使用一项第三方服务：</p>
+    <ul class="info-list">
+      <li><strong>Google Play 结算</strong> — 处理所有应用内购买。我们仅接收购买状态和计划类型。</li>
+    </ul>
+    <p>我们<strong>不</strong>使用广告网络、分析平台、崩溃报告工具或任何其他第三方服务。</p>
+  </div>
+</div>
+
+<!-- ─────────────────────── SECTION 5: User Rights ──────────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-teal">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Your Rights</div><div class="section-num">Section 5</div></div>
+      <div data-lang="ar"><div class="section-title">حقوقك</div><div class="section-num">القسم الخامس</div></div>
+      <div data-lang="de"><div class="section-title">Ihre Rechte</div><div class="section-num">Abschnitt 5</div></div>
+      <div data-lang="es"><div class="section-title">Tus derechos</div><div class="section-num">Sección 5</div></div>
+      <div data-lang="fr"><div class="section-title">Vos droits</div><div class="section-num">Section 5</div></div>
+      <div data-lang="tr"><div class="section-title">Haklarınız</div><div class="section-num">Bölüm 5</div></div>
+      <div data-lang="zh"><div class="section-title">您的权利</div><div class="section-num">第五节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en">
+    <p>Since all data is stored locally on your device, you have full control at all times:</p>
+    <ul class="info-list">
+      <li><strong>Access & Deletion:</strong> Uninstalling the App permanently deletes all local data, including encrypted content, settings, and your device ID.</li>
+      <li><strong>Data Portability:</strong> Your encrypted files can be shared or transferred at any time from within the App.</li>
+      <li><strong>Subscription Management:</strong> Manage or cancel your subscription at any time through Google Play.</li>
+      <li><strong>Authentication:</strong> You can enable or disable biometric / password authentication in the App settings.</li>
+    </ul>
+  </div>
+  <div data-lang="ar">
+    <p>نظراً لأن جميع البيانات مخزنة محلياً على جهازك، فأنت تتمتع بالتحكم الكامل في جميع الأوقات:</p>
+    <ul class="info-list">
+      <li><strong>الوصول والحذف:</strong> إلغاء تثبيت التطبيق يحذف نهائياً جميع البيانات المحلية، بما في ذلك المحتوى المشفر والإعدادات ومعرّف جهازك.</li>
+      <li><strong>نقل البيانات:</strong> يمكن مشاركة ملفاتك المشفرة أو نقلها في أي وقت من داخل التطبيق.</li>
+      <li><strong>إدارة الاشتراك:</strong> يمكنك إدارة اشتراكك أو إلغاؤه في أي وقت عبر Google Play.</li>
+      <li><strong>المصادقة:</strong> يمكنك تفعيل أو تعطيل المصادقة البيومترية/بكلمة المرور في إعدادات التطبيق.</li>
+    </ul>
+  </div>
+  <div data-lang="de">
+    <p>Da alle Daten lokal auf Ihrem Gerät gespeichert sind, haben Sie jederzeit die volle Kontrolle:</p>
+    <ul class="info-list">
+      <li><strong>Zugang & Löschung:</strong> Die Deinstallation der App löscht dauerhaft alle lokalen Daten.</li>
+      <li><strong>Datenportabilität:</strong> Ihre verschlüsselten Dateien können jederzeit aus der App heraus geteilt werden.</li>
+      <li><strong>Abonnementverwaltung:</strong> Über Google Play jederzeit verwaltbar oder kündbar.</li>
+      <li><strong>Authentifizierung:</strong> In den App-Einstellungen konfigurierbar.</li>
+    </ul>
+  </div>
+  <div data-lang="es">
+    <p>Dado que todos los datos se almacenan localmente en tu dispositivo, tienes control total en todo momento:</p>
+    <ul class="info-list">
+      <li><strong>Acceso y eliminación:</strong> Desinstalar la App elimina permanentemente todos los datos locales.</li>
+      <li><strong>Portabilidad de datos:</strong> Tus archivos cifrados pueden compartirse en cualquier momento desde la App.</li>
+      <li><strong>Gestión de suscripción:</strong> Administrable o cancelable en cualquier momento a través de Google Play.</li>
+      <li><strong>Autenticación:</strong> Configurable en los ajustes de la App.</li>
+    </ul>
+  </div>
+  <div data-lang="fr">
+    <p>Toutes les données étant stockées localement sur votre appareil, vous avez un contrôle total à tout moment :</p>
+    <ul class="info-list">
+      <li><strong>Accès et suppression :</strong> Désinstaller l'App supprime définitivement toutes les données locales.</li>
+      <li><strong>Portabilité des données :</strong> Vos fichiers chiffrés peuvent être partagés à tout moment depuis l'App.</li>
+      <li><strong>Gestion de l'abonnement :</strong> Gérable ou annulable à tout moment via Google Play.</li>
+      <li><strong>Authentification :</strong> Configurable dans les paramètres de l'App.</li>
+    </ul>
+  </div>
+  <div data-lang="tr">
+    <p>Tüm veriler cihazınızda yerel olarak depolandığından, her zaman tam kontrole sahipsiniz:</p>
+    <ul class="info-list">
+      <li><strong>Erişim ve Silme:</strong> Uygulamayı kaldırmak tüm yerel verileri kalıcı olarak siler.</li>
+      <li><strong>Veri Taşınabilirliği:</strong> Şifrelenmiş dosyalarınız uygulama içinden istediğiniz zaman paylaşılabilir.</li>
+      <li><strong>Abonelik Yönetimi:</strong> Google Play üzerinden istediğiniz zaman yönetilebilir veya iptal edilebilir.</li>
+      <li><strong>Kimlik Doğrulama:</strong> Uygulama ayarlarından yapılandırılabilir.</li>
+    </ul>
+  </div>
+  <div data-lang="zh">
+    <p>由于所有数据均存储在您的设备本地，您随时拥有完全控制权：</p>
+    <ul class="info-list">
+      <li><strong>访问与删除：</strong>卸载应用将永久删除所有本地数据。</li>
+      <li><strong>数据可携性：</strong>您的加密文件可随时从应用内共享。</li>
+      <li><strong>订阅管理：</strong>可随时通过 Google Play 管理或取消订阅。</li>
+      <li><strong>认证：</strong>可在应用设置中配置。</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ─────────────────────── SECTION 6: Children ─────────────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-pink">
+      <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Children's Privacy</div><div class="section-num">Section 6</div></div>
+      <div data-lang="ar"><div class="section-title">خصوصية الأطفال</div><div class="section-num">القسم السادس</div></div>
+      <div data-lang="de"><div class="section-title">Datenschutz für Kinder</div><div class="section-num">Abschnitt 6</div></div>
+      <div data-lang="es"><div class="section-title">Privacidad de menores</div><div class="section-num">Sección 6</div></div>
+      <div data-lang="fr"><div class="section-title">Confidentialité des enfants</div><div class="section-num">Section 6</div></div>
+      <div data-lang="tr"><div class="section-title">Çocukların Gizliliği</div><div class="section-num">Bölüm 6</div></div>
+      <div data-lang="zh"><div class="section-title">儿童隐私</div><div class="section-num">第六节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en"><p>Silent Shield is not directed at children under the age of 13. We do not knowingly collect any personal information from children. If you believe a child has used the App and provided personal data, please contact us so we can take appropriate action.</p></div>
+  <div data-lang="ar"><p>درع صامت غير موجّه للأطفال دون سن 13 عاماً. لا نجمع عن قصد أي معلومات شخصية من الأطفال. إذا كنت تعتقد أن طفلاً قد استخدم التطبيق وقدّم بيانات شخصية، يرجى التواصل معنا.</p></div>
+  <div data-lang="de"><p>Silent Shield richtet sich nicht an Kinder unter 13 Jahren. Wir sammeln wissentlich keine personenbezogenen Daten von Kindern. Wenn Sie glauben, dass ein Kind die App genutzt hat, kontaktieren Sie uns bitte.</p></div>
+  <div data-lang="es"><p>Silent Shield no está dirigido a menores de 13 años. No recopilamos intencionalmente información personal de menores. Si crees que un menor ha usado la App, contáctanos.</p></div>
+  <div data-lang="fr"><p>Silent Shield n'est pas destiné aux enfants de moins de 13 ans. Nous ne collectons pas sciemment de données personnelles auprès d'enfants. Si vous pensez qu'un enfant a utilisé l'App, veuillez nous contacter.</p></div>
+  <div data-lang="tr"><p>Silent Shield 13 yaşın altındaki çocuklara yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir çocuğun uygulamayı kullandığını düşünüyorsanız lütfen bizimle iletişime geçin.</p></div>
+  <div data-lang="zh"><p>Silent Shield 不面向 13 岁以下儿童。我们不会故意收集儿童的个人信息。如果您认为儿童使用了本应用并提供了个人数据，请联系我们。</p></div>
+</div>
+
+<!-- ─────────────────────── SECTION 7: Changes ──────────────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-indigo">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Changes to This Policy</div><div class="section-num">Section 7</div></div>
+      <div data-lang="ar"><div class="section-title">التغييرات على هذه السياسة</div><div class="section-num">القسم السابع</div></div>
+      <div data-lang="de"><div class="section-title">Änderungen dieser Richtlinie</div><div class="section-num">Abschnitt 7</div></div>
+      <div data-lang="es"><div class="section-title">Cambios en esta política</div><div class="section-num">Sección 7</div></div>
+      <div data-lang="fr"><div class="section-title">Modifications de cette politique</div><div class="section-num">Section 7</div></div>
+      <div data-lang="tr"><div class="section-title">Bu Politikadaki Değişiklikler</div><div class="section-num">Bölüm 7</div></div>
+      <div data-lang="zh"><div class="section-title">政策变更</div><div class="section-num">第七节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en"><p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. We encourage you to review this page periodically. Continued use of the App after changes constitutes acceptance of the revised policy.</p></div>
+  <div data-lang="ar"><p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. عند القيام بذلك، سنقوم بتحديث تاريخ "آخر تحديث" في أعلى هذه الصفحة. نشجعك على مراجعة هذه الصفحة بشكل دوري. استمرار استخدام التطبيق بعد التغييرات يعني قبول السياسة المعدّلة.</p></div>
+  <div data-lang="de"><p>Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Das Datum "Zuletzt aktualisiert" wird entsprechend angepasst. Die weitere Nutzung der App nach Änderungen gilt als Zustimmung zur überarbeiteten Richtlinie.</p></div>
+  <div data-lang="es"><p>Podemos actualizar esta Política de Privacidad de vez en cuando. La fecha "Última actualización" se actualizará en consecuencia. El uso continuado de la App tras los cambios constituye la aceptación de la política revisada.</p></div>
+  <div data-lang="fr"><p>Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre. La date de "Dernière mise à jour" sera modifiée en conséquence. L'utilisation continue de l'App après les modifications constitue une acceptation de la politique révisée.</p></div>
+  <div data-lang="tr"><p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. "Son güncelleme" tarihi buna göre değiştirilecektir. Değişikliklerden sonra Uygulamayı kullanmaya devam etmek, revize edilmiş politikayı kabul etmek anlamına gelir.</p></div>
+  <div data-lang="zh"><p>我们可能会不时更新本隐私政策。届时，我们将更新本页顶部的"最后更新"日期。更改后继续使用本应用即表示接受修订后的政策。</p></div>
+</div>
+
+<!-- ─────────────────────── SECTION 8: Contact ──────────────── -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-icon ic-amber">
+      <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+    </div>
+    <div>
+      <div data-lang="en"><div class="section-title">Contact Us</div><div class="section-num">Section 8</div></div>
+      <div data-lang="ar"><div class="section-title">تواصل معنا</div><div class="section-num">القسم الثامن</div></div>
+      <div data-lang="de"><div class="section-title">Kontakt</div><div class="section-num">Abschnitt 8</div></div>
+      <div data-lang="es"><div class="section-title">Contáctanos</div><div class="section-num">Sección 8</div></div>
+      <div data-lang="fr"><div class="section-title">Nous contacter</div><div class="section-num">Section 8</div></div>
+      <div data-lang="tr"><div class="section-title">Bize Ulaşın</div><div class="section-num">Bölüm 8</div></div>
+      <div data-lang="zh"><div class="section-title">联系我们</div><div class="section-num">第八节</div></div>
+    </div>
+  </div>
+
+  <div data-lang="en"><p>If you have any questions or concerns about this Privacy Policy or the App's data practices, please contact us:</p></div>
+  <div data-lang="ar"><p>إذا كان لديك أي أسئلة أو مخاوف بشأن سياسة الخصوصية هذه أو ممارسات البيانات في التطبيق، يرجى التواصل معنا:</p></div>
+  <div data-lang="de"><p>Bei Fragen oder Bedenken zu dieser Datenschutzerklärung kontaktieren Sie uns bitte:</p></div>
+  <div data-lang="es"><p>Si tienes preguntas o inquietudes sobre esta Política de Privacidad, contáctanos:</p></div>
+  <div data-lang="fr"><p>Pour toute question concernant cette Politique de Confidentialité, contactez-nous :</p></div>
+  <div data-lang="tr"><p>Bu Gizlilik Politikası hakkında sorularınız varsa lütfen bizimle iletişime geçin:</p></div>
+  <div data-lang="zh"><p>如果您对本隐私政策有任何疑问，请联系我们：</p></div>
+
+  <a class="contact-card" href="mailto:a.binaref@gmail.com">
+    <div class="contact-avatar">
+      <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+    </div>
+    <div>
+      <div class="contact-label">BinAref — Silent Shield Developer</div>
+      <div class="contact-email">a.binaref@gmail.com</div>
+    </div>
+  </a>
+</div>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════════════ FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <div class="footer-logo-icon">
+      <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/></svg>
+    </div>
+    <strong>Silent Shield</strong>
+  </div>
+  <div data-lang="en">© 2026 BinAref. All rights reserved. · <a href="mailto:a.binaref@gmail.com">Contact</a></div>
+  <div data-lang="ar">© 2026 BinAref. جميع الحقوق محفوظة. · <a href="mailto:a.binaref@gmail.com">تواصل معنا</a></div>
+  <div data-lang="de">© 2026 BinAref. Alle Rechte vorbehalten. · <a href="mailto:a.binaref@gmail.com">Kontakt</a></div>
+  <div data-lang="es">© 2026 BinAref. Todos los derechos reservados. · <a href="mailto:a.binaref@gmail.com">Contacto</a></div>
+  <div data-lang="fr">© 2026 BinAref. Tous droits réservés. · <a href="mailto:a.binaref@gmail.com">Contact</a></div>
+  <div data-lang="tr">© 2026 BinAref. Tüm hakları saklıdır. · <a href="mailto:a.binaref@gmail.com">İletişim</a></div>
+  <div data-lang="zh">© 2026 BinAref. 保留所有权利。· <a href="mailto:a.binaref@gmail.com">联系我们</a></div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
